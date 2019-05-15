@@ -5,6 +5,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
+
 
 const styles = {
   root: {
@@ -19,10 +21,10 @@ function ButtonAppBar(props) {
       <AppBar position="static">
       <StyledNav>
           <Toolbar>
-          <Button color="inherit">Home</Button>
-          <Button color="inherit">About</Button>
-          <Button color="inherit">F.A.Q</Button>
-          <Button color="inherit">Contact</Button>
+   <Button color="inherit">Home</Button>
+   <Link to="/about">   <Button color="inherit">About</Button></Link>
+   <Link to="/faq">       <Button color="inherit">F.A.Q</Button></Link> 
+   <Link to="/contact">      <Button color="inherit">Contact</Button></Link>
           </Toolbar>
           </StyledNav>
       </AppBar>
