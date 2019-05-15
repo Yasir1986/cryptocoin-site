@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar"
+import Options from "../components/Options"
 
 class About extends React.Component {
   render() {
@@ -7,6 +8,7 @@ class About extends React.Component {
       <div>
           <NavBar/>
         <h1>ABOUT</h1>
+        <Options/>
       </div>
     );
   }

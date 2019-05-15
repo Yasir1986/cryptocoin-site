@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import styled from "styled-components";
+import Options from "../components/Options";
 import { Slide } from "react-slideshow-image";
 import slide0 from "../assets/img/slide0.jpg";
 import slide1 from "../assets/img/slide1.jpg";
@@ -18,15 +19,9 @@ const Slideshow = () => {
   return (
     <StyledSlide>
     <Slide {...properties}>
-      <div className="each-slide">
-         <img src={slide0} alt="slide0" width="1280" height="800"/> 
-        </div>
-      <div className="each-slide">
-      <img src={slide1} alt="slide1" width="1280" height="800"/> 
-      </div>
-      <div className="each-slide">
-      <img src={slide2} alt="slide2" width="1280" height="800"/> 
-      </div>
+      <img src={slide0} alt="slide0"  width="1520" height="656"/> 
+      <img src={slide1} alt="slide1" width="1520" height="656"/> 
+      <img src={slide2} alt="slide2" width="1520" height="656"/> 
     </Slide>
     </StyledSlide>
   )
@@ -38,6 +33,10 @@ class Home extends React.Component {
         <div>
         <NavBar />
         <Slideshow/>
+        <Options />
+         
+        
+      
       </div>
     );
   }
@@ -45,7 +44,9 @@ class Home extends React.Component {
 
 export default Home;
 
+
 const StyledSlide = styled.div`
-    margin: auto;
-    padding: 10;
+ 
+  max-width: 100%;
+  max-height: 100%;
 `;
