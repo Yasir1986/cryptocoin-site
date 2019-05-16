@@ -7,12 +7,14 @@ class Footer extends React.Component {
     return (
       <Wrapper>
           <Styledlist>
-              <Link to="/"><li>Home</li></Link>
+              <a href="/"><li>Home</li></a>
                <Link to="/about"> <li>About</li></Link>
                <Link to="/faq">    <li>F.A.Q</li></Link>
                <Link to="/contact"><li>Contact</li></Link>
             </Styledlist>
-            <p>copyright</p>
+            <StyledP>
+            <p>&copy; Copyright 2018-2019, doubleyourbtc </p>
+            </StyledP>
       </Wrapper>
     );
   }
@@ -22,14 +24,20 @@ export default Footer;
 
 const Wrapper = styled.div`
     position: absolute;
-    bottom: 0;
+    background-color: #3F51B5;
+    height: 10%;
     width: 100%;
-    height: 50px;
 `;
 
 const Styledlist = styled.div`
+    margin-top: 10px;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+    text-decoration: none;
+`;
+
+const StyledP = styled.p`
+    text-align: center;
 `;
 
