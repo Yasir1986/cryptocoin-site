@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import styled from "styled-components";
 import Options from "../components/Options";
+import Footer from "../components/Footer";
 import { Slide } from "react-slideshow-image";
 import slide0 from "../assets/img/slide0.jpg";
 import slide1 from "../assets/img/slide1.jpg";
@@ -34,6 +35,7 @@ class Home extends React.Component {
         <NavBar />
         <Slideshow/>
         <Options />
+        <Footer />
          
         
       
