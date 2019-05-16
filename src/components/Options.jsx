@@ -9,13 +9,13 @@ class Options extends React.Component {
           <h1>Option 1</h1>
               <h4>min: 0.01 BTC</h4>
               <h4>max: 0.9 BTC</h4>
-              <button>INVEST NOW</button>
+              <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK"> <button>INVEST NOW</button></a>
         </Style1>
         <Style2>
           <h1>Options 2</h1>
               <h4>min: 1 BTC</h4>
               <h4>max: 5 BTC</h4>
-              <button>INVEST NOW</button>
+             <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK"> <button>INVEST NOW</button> </a>
         </Style2>
        
       </Wrapper>
