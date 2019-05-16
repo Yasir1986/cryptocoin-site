@@ -5,10 +5,10 @@ import TextField from '@material-ui/core/TextField';
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import styled from "styled-components"
+import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
   container: {
-
     display: 'flex',
     flexDirection: 'column',
     width: 500,
@@ -18,7 +18,11 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
   },
-
+button: {
+ 
+  margin: 'auto',
+  width: 100,
+}
 });
 
 class Contact extends React.Component {
@@ -85,6 +89,9 @@ class Contact extends React.Component {
           multiline
         />
       </form>
+      <Button variant="contained" color="primary" className={classes.button}>
+        SUBMIT
+      </Button>
       </Wrapper>
    <Footer />
    </div>

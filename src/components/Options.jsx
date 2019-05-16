@@ -6,10 +6,16 @@ class Options extends React.Component {
     return (
       <Wrapper>
         <Style1>
-        <h1>One COLUMS</h1>
+          <h1>Option 1</h1>
+              <h4>min: 0.01 BTC</h4>
+              <h4>max: 0.9 BTC</h4>
+              <button>INVEST NOW</button>
         </Style1>
         <Style2>
-        <h1>Two COLUMS</h1>
+          <h1>Options 2</h1>
+              <h4>min: 1 BTC</h4>
+              <h4>max: 5 BTC</h4>
+              <button>INVEST NOW</button>
         </Style2>
        
       </Wrapper>
@@ -29,12 +35,12 @@ const Wrapper = styled.div`
 const Style1 = styled.div`
       height: 400px;
       width: 350px;
-      background-color: #555;
+      background-color: #87CEFA;
 `;
 
 
 const Style2 = styled.div`
       height: 400px;
       width: 350px;
-      background-color: #555;
+      background-color: #87CEFA;
 `;
