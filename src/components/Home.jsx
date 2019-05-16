@@ -35,7 +35,7 @@ class Home extends React.Component {
         <NavBar />
         <Slideshow/>
         <Options />
-        <Footer />
+      
          
         
       

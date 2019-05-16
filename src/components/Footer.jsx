@@ -8,12 +8,12 @@ class Footer extends React.Component {
       <Wrapper>
           <Styledlist>
               <a href="/"><li>Home</li></a>
-               <Link to="/about"> <li>About</li></Link>
-               <Link to="/faq">    <li>F.A.Q</li></Link>
+               <Link to="/about"><li>About</li></Link>
+               <Link to="/faq"><li>F.A.Q</li></Link>
                <Link to="/contact"><li>Contact</li></Link>
             </Styledlist>
             <StyledP>
-            &copy; Copyright 2018-2019, DoubleYourBTC
+                &copy; Copyright 2018-2019, DoubleYourBTC
             </StyledP>
       </Wrapper>
     );
@@ -27,6 +27,7 @@ const Wrapper = styled.div`
     background-color: #3F51B5;
     height: 12%;
     width: 100%;
+    bottom: 0
 `;
 
 const Styledlist = styled.div`
