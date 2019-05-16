@@ -13,7 +13,7 @@ class Footer extends React.Component {
                <Link to="/contact"><li>Contact</li></Link>
             </Styledlist>
             <StyledP>
-            <p>&copy; Copyright 2018-2019, doubleyourbtc </p>
+            &copy; Copyright 2018-2019, DoubleYourBTC
             </StyledP>
       </Wrapper>
     );
@@ -25,7 +25,7 @@ export default Footer;
 const Wrapper = styled.div`
     position: absolute;
     background-color: #3F51B5;
-    height: 10%;
+    height: 12%;
     width: 100%;
 `;
 
