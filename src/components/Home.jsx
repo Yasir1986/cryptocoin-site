@@ -63,13 +63,13 @@ class Home extends React.Component {
         </h5>
 
         <h5>
-          1. Click on the “Invest Now” button below and you will be redirected
-          automated to our generator page.
+          1.Here you will be required to introduce your Bitcoin Address where
+          you will receive your investement doubled in 12 hours.
         </h5>
 
         <h5>
-          2. Here you will be required to introduce your Bitcoin Address where
-          you will receive your investement doubled in 12 hours.
+          2.Click on the “Invest Now” button below and you will be redirected
+          automated to our generator page.
         </h5>
 
         <h5>
@@ -79,7 +79,8 @@ class Home extends React.Component {
 
         <h5>
           4. We have a limit of Bitcoin that you can double in a day. The
-          minimum amount is 0.001 BTC and the maximum amount is 5 BTC.
+          minimum amount is 0.01 BTC and the maximum amount is 5 BTC.
+          Select your investement plans according to the amount of BTC you want to double.
         </h5>
 
         <h5>

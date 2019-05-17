@@ -25,12 +25,14 @@ export default Footer;
 const Wrapper = styled.div`
   
     background-color: #3F51B5;
-    height: 12%;
+    height: 110px;
     width: 100%;
-    bottom: 0
+    bottom: 0;
+    top: 0
 `;
 
 const Styledlist = styled.div`
+    padding: 1.5%;
     margin-top: 10px;
     list-style: none;
     display: flex;

@@ -30,6 +30,7 @@ class About extends React.Component {
 export default About;
 
 const StyledWrapper = styled.div`
+    margin-bottom: 5%;
     color: grey;
     text-align: center;
 `;

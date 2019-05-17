@@ -19,7 +19,6 @@ const styles = theme => ({
     marginRight: theme.spacing.unit,
   },
 button: {
- 
   margin: 'auto',
   width: 100,
 }
@@ -104,8 +103,6 @@ class Contact extends React.Component {
         />
       </form>
       <Button 
-        
-      
         onClick={this.handleSubmit}
         variant="contained" 
         color="primary" 
@@ -130,6 +127,7 @@ const Wrapper = styled.div`
      display: flex;
      flex-direction: column;
      color: grey
+     margin-bottom: 5%;
 `;
 
 const StyledText = styled.div`
