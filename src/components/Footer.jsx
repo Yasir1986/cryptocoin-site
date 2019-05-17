@@ -23,7 +23,7 @@ class Footer extends React.Component {
 export default Footer;
 
 const Wrapper = styled.div`
-    position: absolute;
+  
     background-color: #3F51B5;
     height: 12%;
     width: 100%;

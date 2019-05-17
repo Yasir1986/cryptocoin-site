@@ -15,7 +15,7 @@ class Options extends React.Component {
           <h1>Plan 2</h1>
               <h4>min: 1 BTC</h4>
               <h4>max: 5 BTC</h4>
-             <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK"> <button>INVEST NOW</button> </a>
+             <a href="https://blockstream.info/address/1LgvzU8iVizkxVANAZRqP9AHKjEt4kw5r4"> <button>INVEST NOW</button> </a>
         </Style2>
        
       </Wrapper>
@@ -27,6 +27,7 @@ export default Options;
 
 const Wrapper = styled.div`
     margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: colums;
     justify-content: space-evenly;

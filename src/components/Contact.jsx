@@ -27,17 +27,30 @@ button: {
 
 class Contact extends React.Component {
   state = {
-    name: '',
+    name: '', 
+    email: '',
+    btc: '',
+    msg: ''
   };
 
-  handleChange = name => event => {
+  handleChange = input => event => {
+    event.preventDefault();
     this.setState({
-      [name]: event.target.value,
+      [input]: event.target.value,
     });
   };
 
+  handleSubmit(event) {
+    alert("Thanks for your message. We will be in touch with you soon!")
+    event.preventDefault();
+  }
+
   render() {
     const { classes } = this.props;
+    console.log(this.state.name)
+    console.log(this.state.email)
+    console.log(this.state.btc)
+    console.log(this.state.msg)
 
     return (
       <div>
@@ -47,21 +60,22 @@ class Contact extends React.Component {
         <h1>CONTACT US</h1>
         <p>If you sent Bitcoins to our address and did not receive them multiplied within 24 hours, please contact us at e-mail support@doubleyourbtc.epizy.com (write code of your transaction) and we will refund your Bitcoins multiplied by threefold</p>
         </StyledText>
-         <form className={classes.container} noValidate autoComplete="off">
+         <form onSubmit={this.handleSubmit} className={classes.container} noValidate autoComplete="off">
         <TextField
           id="name"
           label=" Your Name"
           className={classes.textField}
-          value={this.state.name}
+          value={this.state.value}
           onChange={this.handleChange('name')}
           margin="normal"
           variant="outlined"
+          
         />
          <TextField
           id="email"
           label="Your Email"
           className={classes.textField}
-          value={this.state.email}
+          value={this.state.value}
           onChange={this.handleChange('email')}
           margin="normal"
           variant="outlined"
@@ -71,7 +85,7 @@ class Contact extends React.Component {
           id="btc"
           label="Your BTC address"
           className={classes.textField}
-          value={this.state.btc}
+          value={this.state.value}
           onChange={this.handleChange('btc')}
           margin="normal"
           variant="outlined"
@@ -81,7 +95,7 @@ class Contact extends React.Component {
           id="msg"
           label="Your message"
           className={classes.textField}
-          value={this.state.msg}
+          value={this.state.value}
           onChange={this.handleChange('msg')}
           margin="normal"
           variant="outlined"
@@ -89,7 +103,13 @@ class Contact extends React.Component {
           multiline
         />
       </form>
-      <Button variant="contained" color="primary" className={classes.button}>
+      <Button 
+        
+      
+        onClick={this.handleSubmit}
+        variant="contained" 
+        color="primary" 
+        className={classes.button}>
         SUBMIT
       </Button>
       </Wrapper>
