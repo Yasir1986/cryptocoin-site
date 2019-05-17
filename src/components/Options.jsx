@@ -33,7 +33,7 @@ class Options extends React.Component {
                 variant="outlined"
                />
                <br/>
-              <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK">
+              <a style={{ textDecoration: 'none' }} href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK">
                <Button
                variant="contained" 
                color="primary" 
@@ -54,7 +54,7 @@ class Options extends React.Component {
                 variant="outlined"
                />
                <br/>
-             <a href="https://blockstream.info/address/1LgvzU8iVizkxVANAZRqP9AHKjEt4kw5r4"> 
+             <a style={{ textDecoration: 'none' }} href="https://blockstream.info/address/1LgvzU8iVizkxVANAZRqP9AHKjEt4kw5r4"> 
              <Button
                variant="contained" 
                color="primary" 

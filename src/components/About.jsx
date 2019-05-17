@@ -9,7 +9,7 @@ class About extends React.Component {
       <div>
           <NavBar/>
           <StyledWrapper>
-            <h1>ABOUT US. DOUBLE YOUR BTC</h1>
+            <h1>ABOUT US</h1>
             <h3>1. We trade for you</h3>
             <p>You are already tired of permanent loss of money in the Forex market? Maybe it is time to abandon the "attempts to trade" and to entrust this work to professionals, transferring them management of your finances? DOUBLE YOUR BTC Limited services – for people with available cash assets which they want to invest, but do not have skills of individual active asset management and don't want to risk their finances.</p>
             <h3>2. Our guarantees.</h3>
@@ -30,6 +30,7 @@ class About extends React.Component {
 export default About;
 
 const StyledWrapper = styled.div`
+   
     margin-bottom: 5%;
     color: grey;
     text-align: center;
