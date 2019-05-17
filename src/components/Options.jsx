@@ -6,13 +6,13 @@ class Options extends React.Component {
     return (
       <Wrapper>
         <Style1>
-          <h1>Option 1</h1>
+          <h1>Plan 1</h1>
               <h4>min: 0.01 BTC</h4>
               <h4>max: 0.9 BTC</h4>
               <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK"> <button>INVEST NOW</button></a>
         </Style1>
         <Style2>
-          <h1>Options 2</h1>
+          <h1>Plan 2</h1>
               <h4>min: 1 BTC</h4>
               <h4>max: 5 BTC</h4>
              <a href="https://blockstream.info/address/1Hi2nmnk6VuKsM6nenjRnE44rJhYgFZcCK"> <button>INVEST NOW</button> </a>
@@ -26,6 +26,7 @@ class Options extends React.Component {
 export default Options;
 
 const Wrapper = styled.div`
+    margin-top: 5%;
     display: flex;
     flex-direction: colums;
     justify-content: space-evenly;
@@ -33,6 +34,7 @@ const Wrapper = styled.div`
 
 
 const Style1 = styled.div`
+      text-align: center;
       height: 400px;
       width: 350px;
       background-color: #87CEFA;
@@ -40,6 +42,7 @@ const Style1 = styled.div`
 
 
 const Style2 = styled.div`
+      text-align: center;
       height: 400px;
       width: 350px;
       background-color: #87CEFA;
