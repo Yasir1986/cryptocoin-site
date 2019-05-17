@@ -9,8 +9,12 @@ import { Link } from "react-router-dom";
 
 const styles = {
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
+  btn: {
+    color: "#ffffff",
+    textDecoration: "none"
+  }
   };
 
 function ButtonAppBar(props) {
@@ -20,20 +24,20 @@ function ButtonAppBar(props) {
       <AppBar position="static">
         <StyledNav>
           <Toolbar>
-            <Link to="/">
-              <Button>Home</Button>
+            <Link style={{ textDecoration: 'none' }} to="/">
+              <Button className={classes.btn}>Home</Button>
             </Link>
-            <Link to="/about">
+            <Link style={{ textDecoration: 'none' }} to="/about">
               {" "}
-              <Button>About</Button>
+              <Button className={classes.btn}>About</Button>
             </Link>
-            <Link to="/faq">
+            <Link style={{ textDecoration: 'none' }} to="/faq">
               {" "}
-              <Button>F.A.Q</Button>
+              <Button className={classes.btn}>F.A.Q</Button>
             </Link>
-            <Link to="/contact">
+            <Link style={{ textDecoration: 'none' }} to="/contact">
               {" "}
-              <Button>Contact</Button>
+              <Button className={classes.btn}>Contact</Button>
             </Link>
           </Toolbar>
         </StyledNav>
@@ -53,6 +57,7 @@ const StyledNav = styled.div`
   position: relative;
   align-items: center;
   justify-content: flex-end;
+  color: white
 `;
 
 

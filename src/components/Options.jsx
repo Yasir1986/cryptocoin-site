@@ -7,7 +7,6 @@ import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
   textField: {
-    
     width: 300,
   },
 button: {

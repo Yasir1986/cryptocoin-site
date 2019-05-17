@@ -1,16 +1,28 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom"
+import { withStyles } from "@material-ui/core/styles";
+
+
+const styles = {
+  li: {
+    color: "#ffffff",
+    textDecoration: "none"
+  }
+  
+  };
 
 class Footer extends React.Component {
   render() {
+    const { classes } = this.props;
     return (
       <Wrapper>
           <Styledlist>
-              <a href="/"><li>Home</li></a>
-               <Link to="/about"><li>About</li></Link>
-               <Link to="/faq"><li>F.A.Q</li></Link>
-               <Link to="/contact"><li>Contact</li></Link>
+              <a style={{ textDecoration: 'none' }} href="/"><li className={classes.li}>Home</li></a>
+               <Link style={{ textDecoration: 'none' }} to="/about"><li className={classes.li}>About</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/faq"><li className={classes.li}>F.A.Q</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/contact"><li className={classes.li}>Contact</li></Link>
             </Styledlist>
             <StyledP>
                 &copy; Copyright 2018-2019, DoubleYourBTC
@@ -20,10 +32,17 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+
+Footer.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Footer);
+
+
 
 const Wrapper = styled.div`
-  
+    color: white;
     background-color: #3F51B5;
     height: 110px;
     width: 100%;
