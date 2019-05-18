@@ -58,7 +58,7 @@ class Home extends React.Component {
         </h5>
 
         <h5>
-          Bellow you will find the simple steps that you will have to follow in
+          Below you will find the simple steps that you will have to follow in
           order to double the amount of Bitcoin that you want to invest :
         </h5>
 
