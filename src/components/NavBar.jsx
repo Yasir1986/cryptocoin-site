@@ -28,15 +28,12 @@ function ButtonAppBar(props) {
               <Button className={classes.btn}>Home</Button>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/about">
-              {" "}
               <Button className={classes.btn}>About</Button>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/faq">
-              {" "}
               <Button className={classes.btn}>F.A.Q</Button>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/contact">
-              {" "}
               <Button className={classes.btn}>Contact</Button>
             </Link>
           </Toolbar>
