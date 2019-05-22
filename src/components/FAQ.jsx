@@ -11,9 +11,9 @@ class FAQ extends React.Component {
         <StyledFaq>
         <h1>FAQ</h1>
         <h3>1. Is your system and website safe?</h3>
-        <p>Our system works 100% and website is safe and secure to invest in order to double your btc</p>
+        <p>Our system works 100% and website is safe and secure to invest in order to double your btc.</p>
         <h3>2. Can I make more than one investment?</h3>
-        <p>Yes. You can make more than one investment. But we will proceed the transactions which came earlier and will double your btc as the transaction done and will sent your double btc on your given BTC address</p>
+        <p>Yes. You can make more than one investment. But we will proceed the transactions which came earlier and will double your btc as the transaction done and will sent your double btc on your given BTC address.</p>
         <h3>3. What are the investment limits?</h3>
         <p>There is 0.01 BTC minimium and 5 BTC maximum limit for investments on Double Your BTC Limited</p>
         <h3>4. Which BTC address should I use to make an investment</h3>
