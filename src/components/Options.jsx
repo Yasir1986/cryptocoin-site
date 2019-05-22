@@ -86,6 +86,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: colums;
   justify-content: space-evenly;
+  @media (max-width: 400px) {
+  }
 `;
 
 const Style1 = styled.div`
@@ -93,6 +95,8 @@ const Style1 = styled.div`
   height: 380px;
   width: 350px;
   background-color: #87cefa;
+  @media (max-width: 400px) {
+  }
 `;
 
 const Style2 = styled.div`
@@ -100,4 +104,6 @@ const Style2 = styled.div`
   height: 380px;
   width: 350px;
   background-color: #87cefa;
+  @media (max-width: 400px) {
+  }
 `;

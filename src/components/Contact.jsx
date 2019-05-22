@@ -52,7 +52,7 @@ class Contact extends React.Component {
     console.log(this.state.msg);
 
     return (
-      <Con>
+      <Container>
         <Wrapper>
           <NavBar />
           <StyledText>
@@ -121,7 +121,7 @@ class Contact extends React.Component {
           </Button>
         </Wrapper>
         <Footer />
-      </Con>
+      </Container>
     );
   }
 }
@@ -132,20 +132,21 @@ Contact.propTypes = {
 
 export default withStyles(styles)(Contact);
 
-const Con = styled.div`
+const Container = styled.div`
     background-color: #dcdcdc;
 `;
 
 const Wrapper = styled.div`
- 
      display: flex;
      flex-direction: column;
      color: grey
-     margin-bottom: 5%;
+     margin-bottom: 2%;
+    
+     @media (max-width: 400px) {
+    }
 `;
 
 const StyledText = styled.div`
-
   padding: 0% 2% 1% 2%;
   text-align: center;
 `;

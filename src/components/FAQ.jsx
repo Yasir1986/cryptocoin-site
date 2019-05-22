@@ -76,7 +76,6 @@ const Wrapper = styled.div`
 
 const StyledFaq = styled.div`
   padding: 0% 2% 1% 2%;
-
   color: grey;
   text-align: center;
 `;
