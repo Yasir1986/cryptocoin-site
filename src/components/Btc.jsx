@@ -7,7 +7,7 @@ import qr from "../assets/img/qr.png";
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <Wrapper>
         <NavBar />
         <StyleBTC>
           <p>
@@ -24,12 +24,16 @@ class About extends React.Component {
           <p>( 0/1 confirmation...)</p>
         </StyleBTC>
         <Footer />
-      </div>
+      </Wrapper>
     );
   }
 }
 
 export default About;
+
+const Wrapper = styled.div`
+    background-color: #dcdcdc;
+`;
 
 const StyleBTC = styled.div`
   text-align: center;
