@@ -21,8 +21,8 @@ class Options extends React.Component {
     const { classes } = this.props;
     return (
       <Wrapper>
-        <Style1>
-          <h1>Plan 1</h1>
+        <BTC1>
+          <h1>BTC Package 1</h1>
           <h4>min: 0.01 BTC</h4>
           <h4>max: 0.9 BTC</h4>
           <TextField
@@ -44,9 +44,9 @@ class Options extends React.Component {
               INVEST NOW
             </Button>
           </Link>
-        </Style1>
-        <Style2>
-          <h1>Plan 2</h1>
+        </BTC1>
+        <BTC2>
+          <h1>BTC Package 2</h1>
           <h4>min: 1 BTC</h4>
           <h4>max: 5 BTC</h4>
           <TextField
@@ -68,7 +68,55 @@ class Options extends React.Component {
               INVEST NOW
             </Button>
           </Link>
-        </Style2>
+        </BTC2>
+        <ETH1>
+          <h1>ETH Package 1</h1>
+          <h4>min: 0.1 ETH</h4>
+          <h4>max: 1 ETH</h4>
+          <TextField
+            required
+            id="btc"
+            label="Your ETH address"
+            className={classes.textField}
+            margin="normal"
+            variant="outlined"
+          />
+          <br />
+          <Link to="/eth" style={{ textDecoration: "none" }}>
+            {" "}
+            <Button
+              variant="contained"
+              color="primary"
+              className={classes.button}
+            >
+              INVEST NOW
+            </Button>
+          </Link>
+        </ETH1>
+        <ETH2>
+          <h1>ETH Package 2</h1>
+          <h4>min: 1 ETH</h4>
+          <h4>max: 5 ETH</h4>
+          <TextField
+            required
+            id="btc"
+            label="Your ETH address"
+            className={classes.textField}
+            margin="normal"
+            variant="outlined"
+          />
+          <br />
+          <Link to="/eth" style={{ textDecoration: "none" }}>
+            {" "}
+            <Button
+              variant="contained"
+              color="primary"
+              className={classes.button}
+            >
+              INVEST NOW
+            </Button>
+          </Link>
+        </ETH2>
       </Wrapper>
     );
   }
@@ -90,7 +138,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const Style1 = styled.div`
+const BTC1 = styled.div`
   text-align: center;
   height: 380px;
   width: 350px;
@@ -99,7 +147,7 @@ const Style1 = styled.div`
   }
 `;
 
-const Style2 = styled.div`
+const BTC2 = styled.div`
   text-align: center;
   height: 380px;
   width: 350px;
@@ -107,3 +155,22 @@ const Style2 = styled.div`
   @media (max-width: 400px) {
   }
 `;
+
+const ETH1 = styled.div`
+  text-align: center;
+  height: 380px;
+  width: 350px;
+  background-color: #87cefa;
+  @media (max-width: 400px) {
+  }
+`;
+
+const ETH2 = styled.div`
+  text-align: center;
+  height: 380px;
+  width: 350px;
+  background-color: #87cefa;
+  @media (max-width: 400px) {
+  }
+`;
+

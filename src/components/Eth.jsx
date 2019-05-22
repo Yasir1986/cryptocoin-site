@@ -14,7 +14,7 @@ class Eth extends React.Component {
             You are free to use this Ethereum address as many times as you like
             to get double your ETH
           </p>
-          <p>*Any deposit under 0.01 ETH will be considered as a donation</p>
+          <p>*Any deposit under 0.1 ETH will be considered as a donation</p>
           <h2>SEND ETHEREUM TO</h2>
           <h2>0xc5d3062340C4a5f43cCBf1Ff7F4d1883e5035cbb</h2>
           <p>(minimun 0.01 ETH,maximum 5 ETH)</p>
