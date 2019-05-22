@@ -4,9 +4,11 @@ import styled from "styled-components";
 import Options from "../components/Options";
 import Footer from "../components/Footer";
 import { Slide } from "react-slideshow-image";
-import slide0 from "../assets/img/slide0.jpg";
-import slide1 from "../assets/img/slide1.jpg";
-import slide2 from "../assets/img/slide2.jpg";
+import slide0 from "../assets/img/slide0.jpeg";
+import slide1 from "../assets/img/slide1.jpeg";
+import slide2 from "../assets/img/slide2.jpeg";
+import slide3 from "../assets/img/slide3.jpeg";
+
 
 const properties = {
   duration: 5000,
@@ -23,6 +25,8 @@ const Slideshow = () => {
         <img src={slide0} alt="slide0" width="1520" height="656" />
         <img src={slide1} alt="slide1" width="1520" height="656" />
         <img src={slide2} alt="slide2" width="1520" height="656" />
+        <img src={slide3} alt="slide3" width="1520" height="656" />
+
       </Slide>
     </StyledSlide>
   );
