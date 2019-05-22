@@ -34,7 +34,7 @@ class Options extends React.Component {
             variant="outlined"
           />
           <br />
-          <Link to="/btc" style={{ textDecoration: 'none' }}>
+          <Link to="/btc" style={{ textDecoration: "none" }}>
             {" "}
             <Button
               variant="contained"
@@ -58,7 +58,7 @@ class Options extends React.Component {
             variant="outlined"
           />
           <br />
-          <Link to="/btc" style={{ textDecoration: 'none' }}>
+          <Link to="/btc" style={{ textDecoration: "none" }}>
             {" "}
             <Button
               variant="contained"

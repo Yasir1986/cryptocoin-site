@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <Wrapper>
           <NavBar/>
           <StyledWrapper>
             <h1>ABOUT US</h1>
@@ -22,16 +22,19 @@ class About extends React.Component {
             <p>Investment products of DOUBLE YOUR BTC Limited – are a kit from which each client can independently form their own investment strategy.</p>
           </StyledWrapper>
           <Footer />
-      </div>
+      </Wrapper>
     );
   }
 }
 
 export default About;
 
+const Wrapper = styled.div`
+  background-color: #dcdcdc;
+`;
+
 const StyledWrapper = styled.div`
-   
-    margin-bottom: 5%;
+    padding: 0% 2% 1% 2%;
     color: grey;
     text-align: center;
 `;
