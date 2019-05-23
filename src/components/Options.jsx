@@ -21,102 +21,106 @@ class Options extends React.Component {
     const { classes } = this.props;
     return (
       <Wrapper>
-        <BTC1>
-          <h1>BTC Package 1</h1>
-          <h4>min: 0.01 BTC</h4>
-          <h4>max: 0.9 BTC</h4>
-          <TextField
-            required
-            id="btc"
-            label="Your BTC address"
-            className={classes.textField}
-            margin="normal"
-            variant="outlined"
-          />
-          <br />
-          <Link to="/btc" style={{ textDecoration: "none" }}>
-            {" "}
-            <Button
-              variant="contained"
-              color="primary"
-              className={classes.button}
-            >
-              INVEST NOW
-            </Button>
-          </Link>
-        </BTC1>
-        <BTC2>
-          <h1>BTC Package 2</h1>
-          <h4>min: 1 BTC</h4>
-          <h4>max: 5 BTC</h4>
-          <TextField
-            required
-            id="btc"
-            label="Your BTC address"
-            className={classes.textField}
-            margin="normal"
-            variant="outlined"
-          />
-          <br />
-          <Link to="/btc" style={{ textDecoration: "none" }}>
-            {" "}
-            <Button
-              variant="contained"
-              color="primary"
-              className={classes.button}
-            >
-              INVEST NOW
-            </Button>
-          </Link>
-        </BTC2>
-        <ETH1>
-          <h1>ETH Package 1</h1>
-          <h4>min: 0.1 ETH</h4>
-          <h4>max: 1 ETH</h4>
-          <TextField
-            required
-            id="btc"
-            label="Your ETH address"
-            className={classes.textField}
-            margin="normal"
-            variant="outlined"
-          />
-          <br />
-          <Link to="/eth" style={{ textDecoration: "none" }}>
-            {" "}
-            <Button
-              variant="contained"
-              color="primary"
-              className={classes.button}
-            >
-              INVEST NOW
-            </Button>
-          </Link>
-        </ETH1>
-        <ETH2>
-          <h1>ETH Package 2</h1>
-          <h4>min: 1 ETH</h4>
-          <h4>max: 5 ETH</h4>
-          <TextField
-            required
-            id="btc"
-            label="Your ETH address"
-            className={classes.textField}
-            margin="normal"
-            variant="outlined"
-          />
-          <br />
-          <Link to="/eth" style={{ textDecoration: "none" }}>
-            {" "}
-            <Button
-              variant="contained"
-              color="primary"
-              className={classes.button}
-            >
-              INVEST NOW
-            </Button>
-          </Link>
-        </ETH2>
+        <Btcdiv>
+          <BTC1>
+            <h1>BTC Package 1</h1>
+            <h4>min: 0.01 BTC</h4>
+            <h4>max: 0.9 BTC</h4>
+            <TextField
+              required
+              id="btc"
+              label="Your BTC address"
+              className={classes.textField}
+              margin="normal"
+              variant="outlined"
+            />
+            <br />
+            <Link to="/btc" style={{ textDecoration: "none" }}>
+              {" "}
+              <Button
+                variant="contained"
+                color="primary"
+                className={classes.button}
+              >
+                INVEST NOW
+              </Button>
+            </Link>
+          </BTC1>
+          <BTC2>
+            <h1>BTC Package 2</h1>
+            <h4>min: 1 BTC</h4>
+            <h4>max: 5 BTC</h4>
+            <TextField
+              required
+              id="btc"
+              label="Your BTC address"
+              className={classes.textField}
+              margin="normal"
+              variant="outlined"
+            />
+            <br />
+            <Link to="/btc" style={{ textDecoration: "none" }}>
+              {" "}
+              <Button
+                variant="contained"
+                color="primary"
+                className={classes.button}
+              >
+                INVEST NOW
+              </Button>
+            </Link>
+          </BTC2>
+        </Btcdiv>
+        <Ethdiv>
+          <ETH1>
+            <h1>ETH Package 1</h1>
+            <h4>min: 0.1 ETH</h4>
+            <h4>max: 1 ETH</h4>
+            <TextField
+              required
+              id="btc"
+              label="Your ETH address"
+              className={classes.textField}
+              margin="normal"
+              variant="outlined"
+            />
+            <br />
+            <Link to="/eth" style={{ textDecoration: "none" }}>
+              {" "}
+              <Button
+                variant="contained"
+                color="primary"
+                className={classes.button}
+              >
+                INVEST NOW
+              </Button>
+            </Link>
+          </ETH1>
+          <ETH2>
+            <h1>ETH Package 2</h1>
+            <h4>min: 1 ETH</h4>
+            <h4>max: 5 ETH</h4>
+            <TextField
+              required
+              id="btc"
+              label="Your ETH address"
+              className={classes.textField}
+              margin="normal"
+              variant="outlined"
+            />
+            <br />
+            <Link to="/eth" style={{ textDecoration: "none" }}>
+              {" "}
+              <Button
+                variant="contained"
+                color="primary"
+                className={classes.button}
+              >
+                INVEST NOW
+              </Button>
+            </Link>
+          </ETH2>
+        </Ethdiv>
       </Wrapper>
     );
   }
@@ -131,9 +135,6 @@ export default withStyles(styles)(Options);
 const Wrapper = styled.div`
   margin-top: 5%;
   margin-bottom: 5%;
-  display: flex;
-  flex-direction: colums;
-  justify-content: space-evenly;
   @media (max-width: 400px) {
   }
 `;
@@ -174,3 +175,18 @@ const ETH2 = styled.div`
   }
 `;
 
+const Btcdiv = styled.div`
+  margin-top: 5%;
+  margin-bottom: 5%;
+  @media (max-width: 400px) {
+  }
+  display: flex;
+  justify-content: space-evenly;
+`;
+
+const Ethdiv = styled.div`
+  @media (max-width: 400px) {
+  }
+  display: flex;
+  justify-content: space-evenly;
+`;
