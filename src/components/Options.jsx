@@ -136,6 +136,7 @@ const Wrapper = styled.div`
   margin-top: 5%;
   margin-bottom: 5%;
   @media (max-width: 400px) {
+    display: flex;
   }
 `;
 
@@ -145,6 +146,7 @@ const BTC1 = styled.div`
   width: 350px;
   background-color: #87cefa;
   @media (max-width: 400px) {
+    display: block;
   }
 `;
 
@@ -154,6 +156,7 @@ const BTC2 = styled.div`
   width: 350px;
   background-color: #87cefa;
   @media (max-width: 400px) {
+    display: block;
   }
 `;
 
@@ -163,6 +166,7 @@ const ETH1 = styled.div`
   width: 350px;
   background-color: #87cefa;
   @media (max-width: 400px) {
+    display: block;
   }
 `;
 
@@ -172,20 +176,24 @@ const ETH2 = styled.div`
   width: 350px;
   background-color: #87cefa;
   @media (max-width: 400px) {
+    display: block;
   }
 `;
 
 const Btcdiv = styled.div`
   margin-top: 5%;
   margin-bottom: 5%;
-  @media (max-width: 400px) {
-  }
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: 400px) {
+    display: block;
+  }
+  
 `;
 
 const Ethdiv = styled.div`
   @media (max-width: 400px) {
+    display: block;
   }
   display: flex;
   justify-content: space-evenly;

@@ -75,19 +75,19 @@ class Home extends React.Component {
           </h5>
 
           <h5>
-            3. On same page you will find the Bitcoin/Ethereum Address where you will
+            3.On same page you will find the Bitcoin/Ethereum Address where you will
             have to send your investment.
           </h5>
 
           <h5>
-            4. We have a limit of Bitcoin/Ethereum that you can double in a day. The
+            4.We have a limit of Bitcoin/Ethereum that you can double in a day. The
             minimum amount is 0.01 BTC / 0.1 ETH and the maximum amount is 5 BTC / 10 ETH. Select
             your investement plans according to the amount of BTC/ETH you want to
             double.
           </h5>
 
           <h5>
-            5. After sending your investement, you will have to wait 12 hours to
+            5.After sending your investement, you will have to wait 12 hours to
             receive your doubled amount of Bitcoin/Ethereum in your Wallet!
           </h5>
         </StyledText>
@@ -113,6 +113,7 @@ const StyledSlide = styled.div`
 `;
 
 const StyledText = styled.div`
+  padding: 0% 2% 1% 2%;
   text-align: center;
   color: grey;
 `;
