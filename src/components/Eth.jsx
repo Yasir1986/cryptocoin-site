@@ -17,7 +17,7 @@ class Eth extends React.Component {
           <p>*Any deposit under 0.1 ETH will be considered as a donation</p>
           <h2>SEND ETHEREUM TO</h2>
           <h2>0xc5d3062340C4a5f43cCBf1Ff7F4d1883e5035cbb</h2>
-          <p>(minimun 0.01 ETH,maximum 5 ETH)</p>
+          <p>(minimun 0.01 ETH,maximum 10 ETH)</p>
           <p>STATUS: Waiting for deposit...</p>
           <img src={qreth} alt="btc-qr" width="165px" height="165px" />
           <StyleLoader />

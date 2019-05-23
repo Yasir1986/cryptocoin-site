@@ -75,10 +75,10 @@ class Options extends React.Component {
           <ETH1>
             <h1>ETH Package 1</h1>
             <h4>min: 0.1 ETH</h4>
-            <h4>max: 1 ETH</h4>
+            <h4>max: 2.9 ETH</h4>
             <TextField
               required
-              id="btc"
+              id="eth"
               label="Your ETH address"
               className={classes.textField}
               margin="normal"
@@ -98,11 +98,11 @@ class Options extends React.Component {
           </ETH1>
           <ETH2>
             <h1>ETH Package 2</h1>
-            <h4>min: 1 ETH</h4>
-            <h4>max: 5 ETH</h4>
+            <h4>min: 3 ETH</h4>
+            <h4>max: 10 ETH</h4>
             <TextField
               required
-              id="btc"
+              id="eth"
               label="Your ETH address"
               className={classes.textField}
               margin="normal"

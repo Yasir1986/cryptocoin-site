@@ -42,10 +42,10 @@ class Home extends React.Component {
 
           <h5>
             Welcome to our doubleyourbtc.epizy.com Generator! Here you can
-            double your Bitcoin in just 12 hours without any fees thanks to our
+            double your Bitcoin/Ethereum in just 12 hours without any fees thanks to our
             experience and skills in trading cryptocurrencies. All you will have
             to do is click on the “Invest Now” and Just transfer the amount of
-            Bitcoin that you want to double and your Bitcoin Wallet Address
+            Bitcoin/Ethereum that you want to double and your Bitcoin/Ethereum Wallet Address
             where you will receive your profit in just 12 hours!
           </h5>
 
@@ -54,18 +54,18 @@ class Home extends React.Component {
           <h5>
             We are a trusted EU based company with a three years experience in
             trading cryptocurrencies especially Bitcoin and now you can also
-            multiply your Bitcoin fast, secure and legit using our system! Your
+            multiply your Bitcoin/Ethereum fast, secure and legit using our system! Your
             Investment will be 100% secure with us and you will receive your
             profit in your Bitcoin Wallet in just 12 hours!
           </h5>
 
           <h5>
             Below you will find the simple steps that you will have to follow in
-            order to double the amount of Bitcoin that you want to invest :
+            order to double the amount of Bitcoin/Ethereum that you want to invest :
           </h5>
 
           <h5>
-            1.Here you will be required to introduce your Bitcoin Address where
+            1.Here you will be required to introduce your Bitcoin/Ethereum Address where
             you will receive your investement doubled in 12 hours.
           </h5>
 
@@ -75,20 +75,20 @@ class Home extends React.Component {
           </h5>
 
           <h5>
-            3. On same page you will find the Bitcoin Address where you will
+            3. On same page you will find the Bitcoin/Ethereum Address where you will
             have to send your investment.
           </h5>
 
           <h5>
-            4. We have a limit of Bitcoin that you can double in a day. The
-            minimum amount is 0.01 BTC and the maximum amount is 5 BTC. Select
-            your investement plans according to the amount of BTC you want to
+            4. We have a limit of Bitcoin/Ethereum that you can double in a day. The
+            minimum amount is 0.01 BTC / 0.1 ETH and the maximum amount is 5 BTC / 10 ETH. Select
+            your investement plans according to the amount of BTC/ETH you want to
             double.
           </h5>
 
           <h5>
             5. After sending your investement, you will have to wait 12 hours to
-            receive your doubled amount of Bitcoin in your Wallet!
+            receive your doubled amount of Bitcoin/Ethereum in your Wallet!
           </h5>
         </StyledText>
         <Options />

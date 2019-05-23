@@ -58,10 +58,10 @@ class Contact extends React.Component {
           <StyledText>
             <h1>CONTACT US</h1>
             <p>
-              If you sent Bitcoins to our address and did not receive them
+              If you sent Bitcoins/Ethereum to our address and did not receive them
               multiplied within 24 hours, please contact us at e-mail
               support@doubleyourbtc.epizy.com (write code of your transaction)
-              and we will refund your Bitcoins multiplied by threefold
+              and we will refund your Bitcoins/Ethereum with interest.
             </p>
           </StyledText>
           <form
