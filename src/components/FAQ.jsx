@@ -45,7 +45,7 @@ class FAQ extends React.Component {
             system will send your double BTC/ETH to the address that is first on the
             list.
           </p>
-          <h3>7. Why there is 0.01 BTC/ 0.1 ETH minimum and 5 BTC/ 10 ETH maximum?</h3>
+          <h3>7. Why there is 0.01 BTC/0.1 ETH minimum and 5 BTC/10 ETH maximum?</h3>
           <p>
             The 0.01 BTC/0.1 Eth minimum is defined to make sure that our system is able
             to double your Bitcoins because of the transaction fees, and because
@@ -59,7 +59,7 @@ class FAQ extends React.Component {
           </h3>
           <p>
             Yes, because our system accepts investments from all types of
-            Bitcoin wallets, which means you can even use the exchange wallets.
+            Bitcoin/Ethereum wallets, which means you can even use the exchange wallets.
           </p>
         </StyledFaq>
         <Footer />
