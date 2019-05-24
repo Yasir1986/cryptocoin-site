@@ -72,7 +72,9 @@ class Options extends React.Component {
           </BTC2>
         </Btcdiv>
           <StyledNew>
+            <StyledNewText>
             <p><strong>NEW!</strong></p>
+            </StyledNewText>
           </StyledNew>
         <Ethdiv>
           <ETH1>
@@ -219,7 +221,13 @@ const StyledNew = styled.div`
         from {background-color: red;}
         to {background-color: yellow;}
       }
-      @media (max-width: 1100px) {
+      @media (max-width: 400px) {
         display: none;
       }
+`;
+
+const StyledNewText = styled.p`
+      position: relative;
+      top: 6px;
+      color: Blue;
 `;
