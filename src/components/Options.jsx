@@ -71,6 +71,9 @@ class Options extends React.Component {
             </Link>
           </BTC2>
         </Btcdiv>
+          <StyledNew>
+            <p><strong>NEW!</strong></p>
+          </StyledNew>
         <Ethdiv>
           <ETH1>
             <h1>ETH Package 1</h1>
@@ -96,6 +99,7 @@ class Options extends React.Component {
               </Button>
             </Link>
           </ETH1>
+          
           <ETH2>
             <h1>ETH Package 2</h1>
             <h4>min: 3 ETH</h4>
@@ -197,4 +201,25 @@ const Ethdiv = styled.div`
   }
   display: flex;
   justify-content: space-evenly;
+`;
+
+const StyledNew = styled.div`
+    
+    text-align: center;
+    width: 55px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 6s infinite;
+      @keyframes mymove {
+        from {left:280px;}
+        to {left: 1210px;}
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
+      @media (max-width: 1100px) {
+        display: none;
+      }
 `;
