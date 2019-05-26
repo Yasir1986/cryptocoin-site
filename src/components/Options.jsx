@@ -201,6 +201,7 @@ const Ethdiv = styled.div`
   @media (max-width: 400px) {
     display: block;
   }
+  
   display: flex;
   justify-content: space-evenly;
 `;
