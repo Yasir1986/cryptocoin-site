@@ -6,3 +6,7 @@ Follow the steps to run this cryptocoin-site
 3)npm start
 
 Enjoy
+
+OR
+
+https://cryptocoin-site.herokuapp.com/
